@@ -76,7 +76,7 @@ def show_menu(screen):
         screen.blit(title_surface, title_rect)
 
         # Draw credits to me :)
-        credit_surface = credit_font.render("Created by rahuls101", True, WHITE)
+        credit_surface = credit_font.render("Created by rahulshnkr", True, WHITE)
         credit_rect = credit_surface.get_rect(center=(screen_width // 2, 175))
         screen.blit(credit_surface, credit_rect)
 
